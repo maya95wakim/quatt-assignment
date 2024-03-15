@@ -1,4 +1,12 @@
 # Automation Test Suite: GoRest User CRUD APIs using NodeJS and Cypress.
+
+##  Implementation
+- The test code can be found under /cypress/e2e/crud.js
+- I implemented 2 groups of tests
+  - Successfull CRUD flow: create user, then update some fileds, and wind it up with deleting the user.
+  - Negative tests: unauthorised requests, invalid data, and deleting invalid resources.
+
+## Run the tests
 - The test is linked to a GitHub Action that could be triggered by pushing new commits to the master branch.
 - Additionally, this workflow could be triggered manually by:
    - Go to "Actions" in github
