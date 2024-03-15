@@ -15,10 +15,6 @@ jobs:
            with:
             path: ~/.npm
             key: npm-deps-${{ hashFiles('**/package-lock.json') }}
-         - name: Install NodeJs
-           uses: actions/setup-node@v4
-           with:
-                node-version: '20'
          - name: install all depandancies
            run: npm ci
          - name: Start the test command

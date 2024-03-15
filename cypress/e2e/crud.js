@@ -86,7 +86,7 @@ describe('Successful user CRUD', () => {
     })
 })
 describe('Negative test for CRUD operations', () => {
-    it('Should get an error message to create a new user with UnAuthorized token', () => {
+    it('Should get an error message to create a new user with Unauthorized token', () => {
         cy.request({
             method: 'POST',
             url: 'users',
@@ -98,7 +98,7 @@ describe('Negative test for CRUD operations', () => {
                 expect(res.status).to.equal(401)
             })
     })
-    it('Should get error messages for the invalid fields (gender,status,email)', () => {
+    it('Should get error messages for the invalid fields (gender, status, email)', () => {
         cy.request({
             method: 'POST',
             url: 'users',
