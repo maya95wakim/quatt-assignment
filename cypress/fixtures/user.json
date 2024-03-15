@@ -1,0 +1,20 @@
+{
+    "newUser": {
+        "name": "Mr. Tom Thomas",
+        "email": "TomThomas@goyette.example",
+        "gender": "male",
+        "status": "active"
+    },
+    "updateUser":{
+        "name": "Mr. Tom Thomas",
+        "email": "TomThomas25@goyette.example",
+        "gender": "male",
+        "status": "inactive"
+    },
+    "unvalidUser":{
+        "name": "Mr. Tom Thomas",
+        "email": "TomThomas25",
+        "gender": "test",
+        "status": "test"
+    }
+}
